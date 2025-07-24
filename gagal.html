@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Tidak Ditemukan</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container" style ="color: red;">
+        <h1>Terima Kasih</h1>
+        <h1 id="nama"></h1>
+        <p>Kami sangat menghargai semangat dan antusiasmu. Sampai jumpa di proses seleksi selanjutnya!</p>
+        <a href="index.html">Kembali</a>
+    </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('nama');
+        document.getElementById('nama').textContent = `${nama}`;
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat, Anda Lulus!</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Anda Dinyatakan Lolos!</h1>
+        <h2>Kepanitiaan Bonjer Campus Fair 2026</h2>
+        <img src="img/gambar.jpg" alt="QR Code" style="width: 200px; height: 200px;" />
+        <p id="nama"></p>
+        <p id="posisi"></p>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('nama');
+        const posisi = urlParams.get('posisi');
+        document.getElementById('nama').textContent = `${nama}`;
+        document.getElementById('posisi').textContent = `${posisi}`;
+    </script>
+</body>
+</html>
