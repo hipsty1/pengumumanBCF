@@ -11,7 +11,8 @@ function cekKelulusan() {
             const url = `lolos.html?nama=${encodeURIComponent(peserta.nama)}&posisi=${encodeURIComponent(peserta.posisi)}`;
             window.location.href = url;
         } else if (peserta && peserta.status === "TIDAK LULUS") {
-            window.location.href = "gagal.html";
+            const url = `gagal.html?nama=${encodeURIComponent(peserta.nama)}`;
+            window.location.href = url;
         }
     }
 
