@@ -16,9 +16,7 @@
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const nama = urlParams.get('nama');
-        const posisi = urlParams.get('posisi');
-        document.getElementById('nama').textContent = `${nama}`;
-        document.getElementById('posisi').textContent = `${posisi}`;
+        document.getElementById('nama').textContent = nama ? `${nama}` : 'Nama tidak ditemukan';
     </script>
 </body>
 </html>
