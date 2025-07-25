@@ -1,8 +1,9 @@
 :root {
-  --primary-color: #00B4D8;       /* Turquoise */
-  --secondary-color: #90E0EF;     /* Seafoam */
-  --background-color: #FAF9F6;    /* Coral White */
-  --text-color: #073B4C;          /* Dark Blue */
+    --primary-color: #3674b5;
+    --secondary-color: #578fca;
+    --background: rgba(161, 227, 249, 0.8);
+    --text-color: #d1f8ef;
+    --light-color: #ffbc4c;
 }
 
 body {
@@ -16,18 +17,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color : var(--text-color);
+    color : var(--primary-color);
 }
 
 .container {
-    background: rgba(46, 210, 247, 0.7); 
+    background: var(--background); 
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 75vw;
-
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
