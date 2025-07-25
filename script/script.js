@@ -10,8 +10,9 @@ function cekKelulusan() {
         if (peserta && peserta.status === "LULUS") {
             const url = `lolos.html?nama=${encodeURIComponent(peserta.nama)}&posisi=${encodeURIComponent(peserta.posisi)}`;
             window.location.href = url;
-        } else {
-            window.location.href = "gagal.html";
+        } else if (peserta && peserta.status === "TIDAK LULUS") {
+            const url = `gagal.html?nama=${encodeURIComponent(peserta.nama)}`;
+            window.location.href = url;
         }
     }
 
