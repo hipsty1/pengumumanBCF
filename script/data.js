@@ -1,6 +1,6 @@
 const dataPeserta = [
     { id: "1000000", nama: "Muhammad Fathir Fahrezy", posisi: "Ketua Pelaksana", status: "LULUS" },
-    { id: "8040100", nama: "Dilla Puspita Ramadhani", posisi: "", status: "" },
+    { id: "8040100", nama: "Dilla Puspita Ramadhani", posisi: "Staff Acara", status: "LULUS" },
     { id: "8040204", nama: "Asri Nafsiah", posisi: "", status: "" },
     { id: "8040308", nama: "Rizki Yanuar Gunawan", posisi: "", status: "" },
     { id: "8040412", nama: "Muhammad Nur Rizqi Ramadhani", posisi: "", status: "" },
