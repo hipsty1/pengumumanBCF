@@ -11,11 +11,20 @@
     <div class="container">
         <h1>Pengumuman Kepanitiaan</h1>
         <h2>Bonjer Campus Fair 2026</h2>
-        <p>Masukkan Nomor Peserta</p>
-        <input type="text" id="inputPeserta" placeholder="Contoh : 123456"><br>
-        <button onclick="cekKelulusan()">Cek Pengumuman</button>
+        <form id="formPengumuman">
+            <label for="inputPeserta">Masukkan Nomor Peserta</label><br>
+            <input type="text" id="inputPeserta" placeholder="Contoh : 123456" required><br>
+            <button type="submit">Cek Pengumuman</button>
+        </form>
     </div>
+    
     <script src="script/data.js"></script>
     <script src="script/script.js"></script>
+    <script>
+        document.getElementById("formPengumuman").addEventListener("submit", function(e) {
+            e.preventDefault();
+            cekKelulusan();
+        });
+    </script>
 </body>
 </html>
