@@ -39,12 +39,12 @@ const dataPeserta = [
     { id: "8080724", nama: "Maylinda Rosari", posisi: "Staff Try Out", status: "Lulus" },
     { id: "8080828", nama: "Isnaeni Choeri Wicaksana", posisi: "Staff Try Out", status: "Lulus" },
     { id: "8080932", nama: "Renita Damayanti Khasanah", posisi: "Staff Try Out", status: "Lulus" },
-    { id: "8081036", nama: "Elsya Putri Widyaningrum", posisi: "Staff Sektretaris", status: "Lulus" },
-    { id: "8081140", nama: "Eva Aulia Lathifah Sutarno", posisi: "Staff Sektretaris", status: "Lulus" },
+    { id: "8081036", nama: "Elsya Putri Widyaningrum", posisi: "Staff Sekretaris", status: "Lulus" },
+    { id: "8081140", nama: "Eva Aulia Lathifah Sutarno", posisi: "Staff Sekretaris", status: "Lulus" },
     { id: "8081244", nama: "Almas Caesarina Rahmawati", posisi: "Staff Sponsorship", status: "Lulus" },
     { id: "8081348", nama: "Dewi Maryani", posisi: "Staff Konsumsi", status: "Lulus" },
     { id: "8081452", nama: "Ulung Jihan Hilmi Fadil", posisi: "Staff Lapangan", status: "Lulus" },
-    { id: "8081556", nama: "Hafsah Bhekti Kinasih", posisi: "Wakil Koor Sektretaris", status: "Lulus" },
+    { id: "8081556", nama: "Hafsah Bhekti Kinasih", posisi: "Wakil Koor Sekretaris", status: "Lulus" },
     { id: "8081660", nama: "Mutiara Kinantiyasih", posisi: "", status: "Tidak Lulus" },
     { id: "8081764", nama: "A'mala Rizqi Tsaniatul Khusna", posisi: "Staff Konsumsi", status: "Lulus" },
     { id: "E010003", nama: "Haikhal Ihsan Mu'ammar", posisi: "", status: "Tidak Lulus" },
@@ -52,11 +52,8 @@ const dataPeserta = [
     { id: "E010004", nama: "Dafa Rifaul Fajri Rizki Ramadhani", posisi: "", status: "Tidak Lulus" },
     { id: "E010002", nama: "Barqah Ramdhani", posisi: "Staff Perlengkapan", status: "Lulus" },
     { id: "8090100", nama: "Lulu Innuha Khosyia Robbah", posisi: "Staff Try Out", status: "Lulus" },
-    { id: "8090204", nama: "Ibnu Syamsul Ma’arif", posisi: "Staff Sponshorship", status: "Lulus" },
+    { id: "8090204", nama: "Ibnu Syamsul Ma’arif", posisi: "Staff Sponsorship", status: "Lulus" },
     { id: "E020002", nama: "Kin Dzakira", posisi: "", status: "Tidak Lulus" },
     { id: "E020001", nama: "Fanessa Dhantiana Sari", posisi: "Staff Bendahara", status: "Lulus" },
     { id: "E020003", nama: "Faishal Farras Faturrahman", posisi: "", status: "Tidak Lulus" }
-]
-
-
-// TIDAK LULUS or LULUS
+];
